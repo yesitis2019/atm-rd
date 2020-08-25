@@ -10,6 +10,7 @@ public class CustomerMain {
         Bank bank = new Bank("My Bank");
         bank.addCustomer(peter);
         bank.addCustomer(nancy);
+        System.out.println(bank);
         // เรียก find customer
         Customer c1 = bank.findCustomer(1);
         Customer c80 = bank.findCustomer(80);
@@ -24,6 +25,7 @@ public class CustomerMain {
         atm.transfer(2,200);
         System.out.println(peter);
         System.out.println(nancy);
+
 
     }
 }
